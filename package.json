@@ -1,0 +1,35 @@
+{
+  "name": "message-email-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dec0deit/message-email-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dec0deit/message-email-api/issues"
+  },
+  "homepage": "https://github.com/dec0deit/message-email-api#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-html-to-image": "^3.2.0",
+    "nodemailer": "^6.7.0",
+    "path": "^0.12.7",
+    "pdf": "^0.1.0",
+    "twilio": "^3.71.1"
+  }
+}

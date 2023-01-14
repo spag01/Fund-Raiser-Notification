@@ -1,0 +1,43 @@
+{
+	"transaction": {
+		"payment_id": "55873-83139-75447-76995",
+		"merchant_email": "merchantemail@test.com",
+		"merchant_id": "123456789012345",
+		"status": "Success",
+		"status_flag": 0,
+		"payment_mode": "WALLET",
+		"order": {
+			"order_id": "DEMO_ORD1560424646862",
+			"product_name": "Test Checkout",
+			"gross_amount": 11,
+			"gateway_fee": 0.22,
+			"tax": 0.04
+		},
+		"customer": {
+			"name": "Customer Name",
+			"email_id": "hospitaltreatment2000@gmail.com",
+			"mobile_no": "8570946029"
+		},
+		"shipping": {
+			"address": null,
+			"city": null,
+			"state": null,
+			"country": null,
+			"pincode": null
+		},
+		"billing": {
+			"address": null,
+			"city": null,
+			"state": null,
+			"country": null,
+			"pincode": null
+		},
+		"custom_field_1": null,
+		"custom_field_2": null,
+		"custom_field_3": null,
+		"custom_field_4": null,
+		"custom_field_5": null,
+		"date": "1581769083",
+		"signature": "e08bf1fcaf01d5fa4198de47d08a0158a9526b9e341e8a53bb8d3373b9268861f0bc0c363e60371e0f723558296f23ec43de8aceafd833498d2cf94bf8032b64"
+	}
+}

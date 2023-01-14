@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+  <script src = 'https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <style type="text/css">
+    img
+    {
+      height: 30%;
+    }
+    
+    #SSS
+    {
+      float: right;
+    }
+
+    body
+    {
+      background-image: url('https://message-email-api.herokuapp.com/static/receipt-bg.png');
+      background-size:     contain;
+      background-repeat:   no-repeat;
+      background-position: center;
+      font-family: Helvetica;  
+    }
+
+    .innerbox
+    {
+      margin: 2% 2% 0% 2%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="innerbox">
+    <div style="padding-top: 1%;">
+      <img id="SJM" src="https://message-email-api.herokuapp.com/static/logo-SJM.png">
+      <img id="SSS" src="https://message-email-api.herokuapp.com/static/logo-SSS.png">
+    </div>
+
+    <div style="text-align:center; padding-top: 43%; font-size: 0.87em;">
+      <span style="float:left;"><%= DonorInfo.Name %></span>
+      <span style="float:right;"><%= DonorInfo.Date %></span>
+      <span>₹ <%= DonorInfo.Amount %></span>
+    </div>
+  </div>
+  	
+</body>
+</html>
